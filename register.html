@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Register</title>
 </head>
 <body>
@@ -11,11 +12,19 @@
             <a href="index.html">Hjem</a>
             <a href="merch.html">Produkt</a>
             <a href="chat.html">Kommentar</a>
-            <a href="login.html">Logg inn</a>
+            <div>
+                <a href="login.html">Logg inn</a>
+            </div>         
         </nav>
     </header>
     <main>
-
+        <form action="">
+            <h1>Registrer:</h1>
+            <div class="tab">Info:
+                <p><input type="text" placeholder="Fornavn..." oninput="this.className = ''"></p>
+                <p><input type="text" placeholder="Etternavn..." oninput="this.className = ''"></p>
+            </div>
+        </form>
     </main>
     <footer>
 

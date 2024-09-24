@@ -1,3 +1,8 @@
+body {
+    margin: none;
+    padding: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
 nav {
     position: sticky;
     top: 0;
@@ -12,6 +17,18 @@ nav a {
     padding: 14px;
     text-decoration: none;
 }
-.content {
+nav div a {
+    float: right;
+}
+nav a:hover {
+    background-color: #425ca7;
+    color: white;
+}
+main {
     padding: 1em;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 14px;
 }
